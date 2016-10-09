@@ -26,37 +26,37 @@ sub compute_id
 			{	$match++;
 			}
 			else
-			{	if ($o_val eq "R" and ($r_val eq "A" or $r_val eq "G"))
+			{	if ($r_val eq "R" and ($o_val eq "A" or $o_val eq "G"))
 				{	$match++;
 				}
-				if ($o_val eq "Y" and ($r_val eq "C" or $r_val eq "T"))
+				if ($r_val eq "Y" and ($o_val eq "C" or $o_val eq "T"))
 				{       $match++;
 				}
-				if ($o_val eq "S" and ($r_val eq "G" or $r_val eq "C"))
+				if ($r_val eq "S" and ($o_val eq "G" or $o_val eq "C"))
 				{       $match++;
 				}
-				if ($o_val eq "W" and ($r_val eq "A" or $r_val eq "T"))
+				if ($r_val eq "W" and ($o_val eq "A" or $o_val eq "T"))
 				{       $match++;
 				}
-				if ($o_val eq "K" and ($r_val eq "G" or $r_val eq "T"))
+				if ($r_val eq "K" and ($o_val eq "G" or $o_val eq "T"))
 				{       $match++;
 				}
-				if ($o_val eq "M" and ($r_val eq "A" or $r_val eq "C"))
+				if ($r_val eq "M" and ($o_val eq "A" or $o_val eq "C"))
 				{       $match++;
 				}
-				if ($o_val eq "B" and ($r_val eq "C" or $r_val eq "G" or $r_val eq "T"))
+				if ($r_val eq "B" and ($o_val eq "C" or $o_val eq "G" or $o_val eq "T"))
 				{       $match++;
 				}
-				if ($o_val eq "D" and ($r_val eq "A" or $r_val eq "G" or $r_val eq "T"))
+				if ($r_val eq "D" and ($o_val eq "A" or $o_val eq "G" or $o_val eq "T"))
 				{       $match++;
 				}
-				if ($o_val eq "H" and ($r_val eq "A" or $r_val eq "C" or $r_val eq "T"))
+				if ($r_val eq "H" and ($o_val eq "A" or $o_val eq "C" or $o_val eq "T"))
 				{       $match++;
 				}
-				if ($o_val eq "V" and ($r_val eq "A" or $r_val eq "C" or $r_val eq "G"))
+				if ($r_val eq "V" and ($o_val eq "A" or $o_val eq "C" or $o_val eq "G"))
 				{       $match++;
 				}
-				if ($o_val eq "N")
+				if ($r_val eq "N")
 				{       $match++;
 				}
 			}
