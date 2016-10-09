@@ -27,9 +27,6 @@ sub compute_id
 			{	if ($o_val eq "R" and ($r_val eq "A" or $r_val eq "G"))
 				{	$match++;
 				}
-				if ($o_val eq "R" and ($r_val eq "A" or $r_val eq "G"))
-				{       $match++;
-				}
 				if ($o_val eq "Y" and ($r_val eq "C" or $r_val eq "T"))
 				{       $match++;
 				}
