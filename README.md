@@ -4,7 +4,7 @@ This folder contains various post-processing scripts for metannotate analyses of
 
 MetAnnotate can be found here http://metannotate.uwaterloo.ca/ and here https://bitbucket.org/doxeylab/metannotate
 
-Some basic R scripts are below:
+Some basic R commands are below:
 
 
 <h3>Loading and processing output files</h3>
